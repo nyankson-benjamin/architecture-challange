@@ -35,6 +35,6 @@ npm start
 
 I used context api together with useReducer hook to manage the state of the application.
 
-###steps:
+### steps:
 
 1. The initial state is set to an empty string (""), and a reducer function componentReducer is used to update the state based on dispatched actions.
