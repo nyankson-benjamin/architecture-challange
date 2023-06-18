@@ -42,3 +42,5 @@ I used context api together with useReducer hook to manage the state of the appl
 2. I then used useEffect hook to save the current state to the localStorage whenever the component value changes so that the last viewed component is remembered even after refreshing the page.
 
 3. Inside the App.js component, i used the useContext hook to access the component state value from the 'ComponentContext', based on the value of the component, i used a switch statement to assign the corresponding page component to a 'currentComponent' variable. The home page is the default page.
+
+4. The 'currentComponent' variable is then rendered to the page
