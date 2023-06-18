@@ -33,7 +33,7 @@ npm start
 
 ## Project Description
 
-I used context API to manage the state of the application.
+I used the context API to manage the state of the application.
 
 ### steps:
 
