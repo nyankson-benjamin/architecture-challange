@@ -35,3 +35,5 @@ npm start
 
 I used context api to manage the state of the application.
 The state is then saved to local storage to keep track of the current page.
+All the available pages are being imported to the App.js component.
+The component's context is also imported into the App.js
