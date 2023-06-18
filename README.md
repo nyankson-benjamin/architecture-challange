@@ -33,7 +33,8 @@ npm start
 
 ## Project Description
 
-I used context api to manage the state of the application.
-The state is then saved to local storage to keep track of the current page.
-All the available pages are being imported to the App.js component.
-The component's context is also imported into the App.js
+I used context api together with useReducer hook to manage the state of the application.
+
+###steps:
+
+1. The initial state is set to an empty string (""), and a reducer function componentReducer is used to update the state based on dispatched actions.
